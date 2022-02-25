@@ -37,12 +37,12 @@ namespace WindowsFormsApp1
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnDecimal = new System.Windows.Forms.Button();
-            this.btnHexa = new System.Windows.Forms.Button();
-            this.btnBinary = new System.Windows.Forms.Button();
+            this.btnDec = new System.Windows.Forms.Button();
+            this.btnHex = new System.Windows.Forms.Button();
+            this.btnBin = new System.Windows.Forms.Button();
             this.btnMod = new System.Windows.Forms.Button();
             this.btnExp = new System.Windows.Forms.Button();
-            this.btnOcta = new System.Windows.Forms.Button();
+            this.btnOct = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.btnTan = new System.Windows.Forms.Button();
             this.btnCos = new System.Windows.Forms.Button();
@@ -53,7 +53,7 @@ namespace WindowsFormsApp1
             this.btnCosh = new System.Windows.Forms.Button();
             this.btnTanh = new System.Windows.Forms.Button();
             this.btnLog = new System.Windows.Forms.Button();
-            this.btncuberoot = new System.Windows.Forms.Button();
+            this.btnLog10 = new System.Windows.Forms.Button();
             this.btnNFac = new System.Windows.Forms.Button();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
@@ -70,7 +70,7 @@ namespace WindowsFormsApp1
             this.btn9 = new System.Windows.Forms.Button();
             this.btnMul = new System.Windows.Forms.Button();
             this.btnlnx = new System.Windows.Forms.Button();
-            this.btnFrac = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
             this.btnDiv = new System.Windows.Forms.Button();
@@ -80,7 +80,6 @@ namespace WindowsFormsApp1
             this.btnPoint = new System.Windows.Forms.Button();
             this.btnEqual = new System.Windows.Forms.Button();
             this.txtDisplay = new System.Windows.Forms.TextBox();
-            this.lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -172,89 +171,83 @@ namespace WindowsFormsApp1
             this.label4.Size = new System.Drawing.Size(345, 2);
             this.label4.TabIndex = 9;
             // 
-            // btnDecimal
+            // btnDec
             // 
-            this.btnDecimal.FlatAppearance.BorderSize = 0;
-            this.btnDecimal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDecimal.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDecimal.ForeColor = System.Drawing.Color.DimGray;
-            this.btnDecimal.Location = new System.Drawing.Point(-3, 133);
-            this.btnDecimal.Name = "btnDecimal";
-            this.btnDecimal.Size = new System.Drawing.Size(52, 34);
-            this.btnDecimal.TabIndex = 10;
-            this.btnDecimal.Text = "Dec";
-            this.btnDecimal.UseVisualStyleBackColor = true;
-            this.btnDecimal.Click += new System.EventHandler(this.btnDecimal_Click);
+            this.btnDec.FlatAppearance.BorderSize = 0;
+            this.btnDec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDec.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDec.ForeColor = System.Drawing.Color.DimGray;
+            this.btnDec.Location = new System.Drawing.Point(-3, 133);
+            this.btnDec.Name = "btnDec";
+            this.btnDec.Size = new System.Drawing.Size(52, 34);
+            this.btnDec.TabIndex = 10;
+            this.btnDec.Text = "Dec";
+            this.btnDec.UseVisualStyleBackColor = true;
             // 
-            // btnHexa
+            // btnHex
             // 
-            this.btnHexa.FlatAppearance.BorderSize = 0;
-            this.btnHexa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHexa.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHexa.ForeColor = System.Drawing.Color.DimGray;
-            this.btnHexa.Location = new System.Drawing.Point(113, 133);
-            this.btnHexa.Name = "btnHexa";
-            this.btnHexa.Size = new System.Drawing.Size(52, 34);
-            this.btnHexa.TabIndex = 11;
-            this.btnHexa.Text = "Hex";
-            this.btnHexa.UseVisualStyleBackColor = true;
-            this.btnHexa.Click += new System.EventHandler(this.btnHexa_Click);
+            this.btnHex.FlatAppearance.BorderSize = 0;
+            this.btnHex.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHex.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHex.ForeColor = System.Drawing.Color.DimGray;
+            this.btnHex.Location = new System.Drawing.Point(113, 133);
+            this.btnHex.Name = "btnHex";
+            this.btnHex.Size = new System.Drawing.Size(52, 34);
+            this.btnHex.TabIndex = 11;
+            this.btnHex.Text = "Hex";
+            this.btnHex.UseVisualStyleBackColor = true;
             // 
-            // btnBinary
+            // btnBin
             // 
-            this.btnBinary.FlatAppearance.BorderSize = 0;
-            this.btnBinary.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBinary.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnBinary.ForeColor = System.Drawing.Color.DimGray;
-            this.btnBinary.Location = new System.Drawing.Point(55, 133);
-            this.btnBinary.Name = "btnBinary";
-            this.btnBinary.Size = new System.Drawing.Size(52, 34);
-            this.btnBinary.TabIndex = 12;
-            this.btnBinary.Text = "Bin";
-            this.btnBinary.UseVisualStyleBackColor = true;
-            this.btnBinary.Click += new System.EventHandler(this.btnBinary_Click);
+            this.btnBin.FlatAppearance.BorderSize = 0;
+            this.btnBin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBin.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBin.ForeColor = System.Drawing.Color.DimGray;
+            this.btnBin.Location = new System.Drawing.Point(55, 133);
+            this.btnBin.Name = "btnBin";
+            this.btnBin.Size = new System.Drawing.Size(52, 34);
+            this.btnBin.TabIndex = 12;
+            this.btnBin.Text = "Bin";
+            this.btnBin.UseVisualStyleBackColor = true;
             // 
             // btnMod
             // 
             this.btnMod.FlatAppearance.BorderSize = 0;
             this.btnMod.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMod.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMod.ForeColor = System.Drawing.Color.Black;
+            this.btnMod.ForeColor = System.Drawing.Color.DimGray;
             this.btnMod.Location = new System.Drawing.Point(277, 133);
             this.btnMod.Name = "btnMod";
             this.btnMod.Size = new System.Drawing.Size(52, 34);
             this.btnMod.TabIndex = 13;
             this.btnMod.Text = "Mod";
             this.btnMod.UseVisualStyleBackColor = true;
-            this.btnMod.Click += new System.EventHandler(this.btnMod_Click);
             // 
             // btnExp
             // 
             this.btnExp.FlatAppearance.BorderSize = 0;
             this.btnExp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExp.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExp.ForeColor = System.Drawing.Color.Black;
+            this.btnExp.ForeColor = System.Drawing.Color.DimGray;
             this.btnExp.Location = new System.Drawing.Point(229, 133);
             this.btnExp.Name = "btnExp";
             this.btnExp.Size = new System.Drawing.Size(52, 34);
             this.btnExp.TabIndex = 14;
             this.btnExp.Text = "Exp";
             this.btnExp.UseVisualStyleBackColor = true;
-            this.btnExp.Click += new System.EventHandler(this.btnExp_Click);
             // 
-            // btnOcta
+            // btnOct
             // 
-            this.btnOcta.FlatAppearance.BorderSize = 0;
-            this.btnOcta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnOcta.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOcta.ForeColor = System.Drawing.Color.DimGray;
-            this.btnOcta.Location = new System.Drawing.Point(171, 133);
-            this.btnOcta.Name = "btnOcta";
-            this.btnOcta.Size = new System.Drawing.Size(52, 34);
-            this.btnOcta.TabIndex = 15;
-            this.btnOcta.Text = "Oct";
-            this.btnOcta.UseVisualStyleBackColor = true;
-            this.btnOcta.Click += new System.EventHandler(this.btnOcta_Click);
+            this.btnOct.FlatAppearance.BorderSize = 0;
+            this.btnOct.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOct.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOct.ForeColor = System.Drawing.Color.DimGray;
+            this.btnOct.Location = new System.Drawing.Point(171, 133);
+            this.btnOct.Name = "btnOct";
+            this.btnOct.Size = new System.Drawing.Size(52, 34);
+            this.btnOct.TabIndex = 15;
+            this.btnOct.Text = "Oct";
+            this.btnOct.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -277,7 +270,6 @@ namespace WindowsFormsApp1
             this.btnTan.TabIndex = 17;
             this.btnTan.Text = "tan";
             this.btnTan.UseVisualStyleBackColor = true;
-            this.btnTan.Click += new System.EventHandler(this.btnTan_Click);
             // 
             // btnCos
             // 
@@ -305,7 +297,6 @@ namespace WindowsFormsApp1
             this.btnSin.TabIndex = 19;
             this.btnSin.Text = "sin";
             this.btnSin.UseVisualStyleBackColor = true;
-            this.btnSin.Click += new System.EventHandler(this.btnSin_Click);
             // 
             // btnx3
             // 
@@ -319,7 +310,6 @@ namespace WindowsFormsApp1
             this.btnx3.TabIndex = 20;
             this.btnx3.Text = "x^3";
             this.btnx3.UseVisualStyleBackColor = true;
-            this.btnx3.Click += new System.EventHandler(this.btnx3_Click);
             // 
             // btnx2
             // 
@@ -341,13 +331,12 @@ namespace WindowsFormsApp1
             this.btnSinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSinh.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSinh.ForeColor = System.Drawing.Color.DimGray;
-            this.btnSinh.Location = new System.Drawing.Point(65, 215);
+            this.btnSinh.Location = new System.Drawing.Point(-3, 215);
             this.btnSinh.Name = "btnSinh";
             this.btnSinh.Size = new System.Drawing.Size(67, 34);
             this.btnSinh.TabIndex = 26;
             this.btnSinh.Text = "sinh";
             this.btnSinh.UseVisualStyleBackColor = true;
-            this.btnSinh.Click += new System.EventHandler(this.btnSinh_Click);
             // 
             // btnCosh
             // 
@@ -355,13 +344,12 @@ namespace WindowsFormsApp1
             this.btnCosh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCosh.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCosh.ForeColor = System.Drawing.Color.DimGray;
-            this.btnCosh.Location = new System.Drawing.Point(128, 215);
+            this.btnCosh.Location = new System.Drawing.Point(70, 215);
             this.btnCosh.Name = "btnCosh";
             this.btnCosh.Size = new System.Drawing.Size(52, 34);
             this.btnCosh.TabIndex = 25;
             this.btnCosh.Text = "cosh";
             this.btnCosh.UseVisualStyleBackColor = true;
-            this.btnCosh.Click += new System.EventHandler(this.btnCosh_Click);
             // 
             // btnTanh
             // 
@@ -369,13 +357,12 @@ namespace WindowsFormsApp1
             this.btnTanh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTanh.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTanh.ForeColor = System.Drawing.Color.DimGray;
-            this.btnTanh.Location = new System.Drawing.Point(186, 215);
+            this.btnTanh.Location = new System.Drawing.Point(128, 215);
             this.btnTanh.Name = "btnTanh";
-            this.btnTanh.Size = new System.Drawing.Size(61, 34);
+            this.btnTanh.Size = new System.Drawing.Size(52, 34);
             this.btnTanh.TabIndex = 24;
             this.btnTanh.Text = "tanh";
             this.btnTanh.UseVisualStyleBackColor = true;
-            this.btnTanh.Click += new System.EventHandler(this.btnTanh_Click);
             // 
             // btnLog
             // 
@@ -383,27 +370,25 @@ namespace WindowsFormsApp1
             this.btnLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLog.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLog.ForeColor = System.Drawing.Color.DimGray;
-            this.btnLog.Location = new System.Drawing.Point(261, 215);
+            this.btnLog.Location = new System.Drawing.Point(186, 215);
             this.btnLog.Name = "btnLog";
             this.btnLog.Size = new System.Drawing.Size(52, 34);
             this.btnLog.TabIndex = 23;
             this.btnLog.Text = "log";
             this.btnLog.UseVisualStyleBackColor = true;
-            this.btnLog.Click += new System.EventHandler(this.btnLog_Click);
             // 
-            // btncuberoot
+            // btnLog10
             // 
-            this.btncuberoot.FlatAppearance.BorderSize = 0;
-            this.btncuberoot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btncuberoot.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncuberoot.ForeColor = System.Drawing.Color.DimGray;
-            this.btncuberoot.Location = new System.Drawing.Point(-3, 215);
-            this.btncuberoot.Name = "btncuberoot";
-            this.btncuberoot.Size = new System.Drawing.Size(67, 34);
-            this.btncuberoot.TabIndex = 22;
-            this.btncuberoot.Text = "3√";
-            this.btncuberoot.UseVisualStyleBackColor = true;
-            this.btncuberoot.Click += new System.EventHandler(this.btncuberoot_Click);
+            this.btnLog10.FlatAppearance.BorderSize = 0;
+            this.btnLog10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLog10.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLog10.ForeColor = System.Drawing.Color.DimGray;
+            this.btnLog10.Location = new System.Drawing.Point(244, 215);
+            this.btnLog10.Name = "btnLog10";
+            this.btnLog10.Size = new System.Drawing.Size(85, 34);
+            this.btnLog10.TabIndex = 22;
+            this.btnLog10.Text = "log10";
+            this.btnLog10.UseVisualStyleBackColor = true;
             // 
             // btnNFac
             // 
@@ -418,7 +403,6 @@ namespace WindowsFormsApp1
             this.btnNFac.TabIndex = 31;
             this.btnNFac.Text = "n!";
             this.btnNFac.UseVisualStyleBackColor = false;
-            this.btnNFac.Click += new System.EventHandler(this.btnNFac_Click);
             // 
             // btn1
             // 
@@ -493,7 +477,6 @@ namespace WindowsFormsApp1
             this.btnPi.TabIndex = 36;
             this.btnPi.Text = "π";
             this.btnPi.UseVisualStyleBackColor = false;
-            this.btnPi.Click += new System.EventHandler(this.btnPi_Click);
             // 
             // btn4
             // 
@@ -568,7 +551,6 @@ namespace WindowsFormsApp1
             this.btnSquareRoot.TabIndex = 41;
             this.btnSquareRoot.Text = "√";
             this.btnSquareRoot.UseVisualStyleBackColor = false;
-            this.btnSquareRoot.Click += new System.EventHandler(this.btnSquareRoot_Click);
             // 
             // btn7
             // 
@@ -626,7 +608,7 @@ namespace WindowsFormsApp1
             this.btnMul.Name = "btnMul";
             this.btnMul.Size = new System.Drawing.Size(85, 41);
             this.btnMul.TabIndex = 37;
-            this.btnMul.Text = "*";
+            this.btnMul.Text = "×";
             this.btnMul.UseVisualStyleBackColor = false;
             this.btnMul.Click += new System.EventHandler(this.arithmetic);
             // 
@@ -643,22 +625,21 @@ namespace WindowsFormsApp1
             this.btnlnx.TabIndex = 46;
             this.btnlnx.Text = "ln x";
             this.btnlnx.UseVisualStyleBackColor = false;
-            this.btnlnx.Click += new System.EventHandler(this.btnlnx_Click);
             // 
-            // btnFrac
+            // button37
             // 
-            this.btnFrac.BackColor = System.Drawing.SystemColors.Control;
-            this.btnFrac.FlatAppearance.BorderSize = 0;
-            this.btnFrac.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFrac.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFrac.ForeColor = System.Drawing.Color.DimGray;
-            this.btnFrac.Location = new System.Drawing.Point(70, 255);
-            this.btnFrac.Name = "btnFrac";
-            this.btnFrac.Size = new System.Drawing.Size(62, 34);
-            this.btnFrac.TabIndex = 45;
-            this.btnFrac.Text = "1/x";
-            this.btnFrac.UseVisualStyleBackColor = false;
-            this.btnFrac.Click += new System.EventHandler(this.button37_Click);
+            this.button37.BackColor = System.Drawing.SystemColors.Control;
+            this.button37.FlatAppearance.BorderSize = 0;
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.Font = new System.Drawing.Font("Microsoft Tai Le", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button37.ForeColor = System.Drawing.Color.DimGray;
+            this.button37.Location = new System.Drawing.Point(70, 255);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(62, 34);
+            this.button37.TabIndex = 45;
+            this.button37.Text = "1/x";
+            this.button37.UseVisualStyleBackColor = false;
+            this.button37.Click += new System.EventHandler(this.button37_Click);
             // 
             // btnClear
             // 
@@ -673,7 +654,6 @@ namespace WindowsFormsApp1
             this.btnClear.TabIndex = 44;
             this.btnClear.Text = "C";
             this.btnClear.UseVisualStyleBackColor = false;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnDel
             // 
@@ -688,7 +668,6 @@ namespace WindowsFormsApp1
             this.btnDel.TabIndex = 43;
             this.btnDel.Text = "⌫";
             this.btnDel.UseVisualStyleBackColor = false;
-            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // btnDiv
             // 
@@ -701,7 +680,7 @@ namespace WindowsFormsApp1
             this.btnDiv.Name = "btnDiv";
             this.btnDiv.Size = new System.Drawing.Size(85, 34);
             this.btnDiv.TabIndex = 42;
-            this.btnDiv.Text = "/";
+            this.btnDiv.Text = "÷";
             this.btnDiv.UseVisualStyleBackColor = false;
             this.btnDiv.Click += new System.EventHandler(this.arithmetic);
             // 
@@ -718,7 +697,6 @@ namespace WindowsFormsApp1
             this.btnPM.TabIndex = 51;
             this.btnPM.Text = "±";
             this.btnPM.UseVisualStyleBackColor = false;
-            this.btnPM.Click += new System.EventHandler(this.btnPM_Click);
             // 
             // btnPercent
             // 
@@ -733,7 +711,6 @@ namespace WindowsFormsApp1
             this.btnPercent.TabIndex = 50;
             this.btnPercent.Text = "%";
             this.btnPercent.UseVisualStyleBackColor = false;
-            this.btnPercent.Click += new System.EventHandler(this.btnPercent_Click);
             // 
             // btn0
             // 
@@ -778,7 +755,6 @@ namespace WindowsFormsApp1
             this.btnEqual.TabIndex = 47;
             this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = false;
-            this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
             // txtDisplay
             // 
@@ -791,14 +767,6 @@ namespace WindowsFormsApp1
             this.txtDisplay.TabIndex = 52;
             this.txtDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // lbl
-            // 
-            this.lbl.AutoSize = true;
-            this.lbl.Location = new System.Drawing.Point(23, 74);
-            this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(0, 13);
-            this.lbl.TabIndex = 53;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -806,7 +774,6 @@ namespace WindowsFormsApp1
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(325, 461);
-            this.Controls.Add(this.lbl);
             this.Controls.Add(this.txtDisplay);
             this.Controls.Add(this.btnPM);
             this.Controls.Add(this.btnPercent);
@@ -814,7 +781,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.btnPoint);
             this.Controls.Add(this.btnEqual);
             this.Controls.Add(this.btnlnx);
-            this.Controls.Add(this.btnFrac);
+            this.Controls.Add(this.button37);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnDel);
             this.Controls.Add(this.btnDiv);
@@ -837,19 +804,19 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.btnCosh);
             this.Controls.Add(this.btnTanh);
             this.Controls.Add(this.btnLog);
-            this.Controls.Add(this.btncuberoot);
+            this.Controls.Add(this.btnLog10);
             this.Controls.Add(this.btnx2);
             this.Controls.Add(this.btnx3);
             this.Controls.Add(this.btnSin);
             this.Controls.Add(this.btnCos);
             this.Controls.Add(this.btnTan);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.btnOcta);
+            this.Controls.Add(this.btnOct);
             this.Controls.Add(this.btnExp);
             this.Controls.Add(this.btnMod);
-            this.Controls.Add(this.btnBinary);
-            this.Controls.Add(this.btnHexa);
-            this.Controls.Add(this.btnDecimal);
+            this.Controls.Add(this.btnBin);
+            this.Controls.Add(this.btnHex);
+            this.Controls.Add(this.btnDec);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -876,12 +843,12 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button btnDecimal;
-        private System.Windows.Forms.Button btnHexa;
-        private System.Windows.Forms.Button btnBinary;
+        private System.Windows.Forms.Button btnDec;
+        private System.Windows.Forms.Button btnHex;
+        private System.Windows.Forms.Button btnBin;
         private System.Windows.Forms.Button btnMod;
         private System.Windows.Forms.Button btnExp;
-        private System.Windows.Forms.Button btnOcta;
+        private System.Windows.Forms.Button btnOct;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button btnTan;
         private System.Windows.Forms.Button btnCos;
@@ -892,7 +859,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnCosh;
         private System.Windows.Forms.Button btnTanh;
         private System.Windows.Forms.Button btnLog;
-        private System.Windows.Forms.Button btncuberoot;
+        private System.Windows.Forms.Button btnLog10;
         private System.Windows.Forms.Button btnNFac;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
@@ -909,7 +876,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btnMul;
         private System.Windows.Forms.Button btnlnx;
-        private System.Windows.Forms.Button btnFrac;
+        private System.Windows.Forms.Button button37;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnDel;
         private System.Windows.Forms.Button btnDiv;
@@ -919,7 +886,6 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnPoint;
         private System.Windows.Forms.Button btnEqual;
         private System.Windows.Forms.TextBox txtDisplay;
-        private System.Windows.Forms.Label lbl;
     }
 }
 
