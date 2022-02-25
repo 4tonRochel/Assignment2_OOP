@@ -8,3 +8,14 @@ C:\Users\SherylMejia\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Wi
 C:\Users\SherylMejia\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\SherylMejia\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\SherylMejia\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\acer\source\repos\Assignment2_OOP\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
