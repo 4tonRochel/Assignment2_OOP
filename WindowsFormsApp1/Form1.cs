@@ -16,11 +16,13 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
-        bool value = false;
-        String operation = "";
-        Double result = 0;
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
@@ -50,22 +52,12 @@ namespace WindowsFormsApp1
 
         }
 
-        private void Numbers(object sender, EventArgs e)
+        private void button34_Click(object sender, EventArgs e)
         {
-            if ((txtDisplay.Text == "0") || (value)) txtDisplay.Text = "";
-            value = false;
 
-            Button num = (Button)sender;
-            if (num.Text == ".")
-            {
-                if (!txtDisplay.Text.Contains("."))
-                    txtDisplay.Text = txtDisplay.Text + num.Text;
-            }
-            else
-                txtDisplay.Text = txtDisplay.Text + num.Text;
         }
 
-        private void arithmetic(object sender, EventArgs e)
+        private void button24_Click(object sender, EventArgs e)
         {
 
         }
